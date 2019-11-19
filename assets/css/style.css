@@ -1,0 +1,22 @@
+body {
+    background-image: url("../images/light_gray_surface.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.main-header {
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+#bio_image {
+    float: left;
+    width: 200px;
+    margin: 0 20px 20px 0;
+}
+
