@@ -1,63 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>About Matthew Cluff</title>
-</head>
+  </head>
 
-<body>
-
-    <nav class="navbar flex-column flex-md-row navbar-light bg-nav">
-        <div class="container">
-            <h1 id="logo">Matthew Cluff</h1>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Matthew Cluff</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active" href="index.html"
+            >About Me <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link" href="portfolio.html">Gallery</a>
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
         </div>
+      </div>
     </nav>
-
-
-
-
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="box">
-                    <h1 class="main-header">About Me</h1>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box">
+            <h1 class="main-header">About Me</h1>
 
-                    <hr>
-                    <img src="assets/images/me.jpg" alt="photo of me" id="bio_image">
-                    <p>
-                        Hi, I'm Matt, a Full Stack Developer. I've always wanted to be a programmer, and finally took
-                        the
-                        plunge to formalize my education in the fall of 2019. I studied at the University of Arizona's
-                        Extension Coding Boot Camp (Go Wildcats!) and graduated early summer of 2020. With the amazing
-                        curriculum at UofA, I was able to master CSS3, HTML5 and JavaScipt for the front end. For the
-                        backend I use MYSQL and MongoDB. I also learned JQuery, Bootstrap, Handlebars and React.js.
-                    </p>
+            <hr />
+            <img src="assets/images/me.jpg" alt="photo of me" id="bio_image" />
+            <p>
+              Hi, I'm Matt, a Full Stack Developer. I've always wanted to be a
+              programmer, and finally took the plunge to formalize my education
+              in the fall of 2019. I studied at the University of Arizona's
+              Extension Coding Boot Camp (Go Wildcats!) and graduated early
+              summer of 2020. With the amazing curriculum at UofA, I was able to
+              master CSS3, HTML5 and JavaScipt for the front end. For the
+              backend I use MYSQL and MongoDB. I also learned JQuery, Bootstrap,
+              Handlebars and React.js.
+            </p>
 
-                    <p>
-                        Since graduating with my UofA certificate, I've been continuing my education by learning Java,
-                        Python and Php.
-                    </p>
+            <p>
+              Since graduating with my UofA certificate, I've been continuing my
+              education by learning Java, Python and Php.
+            </p>
 
-                    <p>
-                        My family is my biggest motivator. Not only did they support me during my education, but they
-                        are my
-                        biggest fans in all that I do involving programming. Take a look at my portfolio, which has been
-                        thoroughly approved by my 2 year old as "cool" and I hope you feel the same.
-                    </p>
-                </div>
-            </div>
+            <p>
+              My family is my biggest motivator. Not only did they support me
+              during my education, but they are my biggest fans in all that I do
+              involving programming. Take a look at my portfolio, which has been
+              thoroughly approved by my 2 year old as "cool" and I hope you feel
+              the same.
+            </p>
+          </div>
         </div>
+      </div>
     </div>
 
-</body>
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">&copy; Copyright 2019</span>
+      </div>
+    </footer>
 
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
