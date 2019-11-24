@@ -25,6 +25,16 @@ body {
     display: block;
 }
 
+.container-gallery {
+    background-color: white;
+    display: block;
+    padding: 20px;
+}
+
+.padding {
+    padding: 20px;
+}
+
 .main-header {
     color: #4aaaa5;
     font-weight: bold;
