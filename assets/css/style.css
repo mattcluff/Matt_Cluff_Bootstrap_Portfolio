@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background-image: url("../images/light_gray_surface.jpg");
+    background-image: url("../images/background_image.jpg");
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100%;
     display: flex;
