@@ -6,6 +6,9 @@ html {
     font-size: 2.25rem;
     background-color: #4aaaa5;
     color: white;
+    display: block;
+    width: 250px;
+    text-align: center;
 }
 
 .navbar-light .navbar-brand {
